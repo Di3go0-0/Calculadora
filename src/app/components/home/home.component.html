@@ -1,0 +1,37 @@
+<div class="principalContainer">
+    <div class="screenContainer">
+        <div class="screen">
+            <p class="operations">
+                {{operation}}
+            </p>
+            <p class="paragrapht">
+                {{result}}
+            </p>
+            
+        </div>
+    </div>
+    <div class="buttonsContainer">
+        <div class="buttons">
+            <button class="button fuction" (click)="write('C')">C</button>
+            <button class="button fuction" (click)="write('D')">D</button>
+            <button class="button operation" (click)="write('/')">/</button>
+            <button class="button operation" (click)="write('*')">x</button>
+            <button class="button numbers" (click)="write('7')">7</button>
+            <button class="button numbers" (click)="write('8')">8</button>
+            <button class="button numbers" (click)="write('9')">9</button>
+            <button class="button operation" (click)="write('+')">+</button>
+            <button class="button numbers" (click)="write('4')">4</button>
+            <button class="button numbers" (click)="write('5')">5</button>
+            <button class="button numbers" (click)="write('6')">6</button>
+            <button class="button operation" (click)="write('-')">-</button>
+            <button class="button numbers" (click)="write('1')">1</button>
+            <button class="button numbers" (click)="write('2')">2</button>
+            <button class="button numbers" (click)="write('3')">3</button>
+            <button class="button operation" (click)="write('.')">.</button>
+            <button class="button operation " (click)="write('(')">(</button>
+            <button class="button numbers" (click)="write('0')">0</button>
+            <button class="button operation" (click)="write(')')">)</button>
+            <button class="button fuction" (click)="write('=')">=</button>
+        </div>
+    </div>
+</div>
